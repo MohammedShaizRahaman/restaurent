@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurent</title>
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="banner-page.css">
+  <style>
+    .content-container{
+      display: flex;
+      background-image: linear-gradient(120deg, rgba(255, 255, 0, 0.933), rgb(255, 0, 140));
+
+    }
+   .hotel-images-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    width: 50vw;
+    /* background-color: blueviolet; */
+   }
+   .hotel-desc-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 50vw;
+    /* background-color: cadetblue; */
+   }
+   .hotel-img-container{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    justify-content: center;
+    gap: 20px;
+    height: 400px;
+    width: 600px;
+    /* background-color: brown; */
+   }
+   .col1{
+    display: grid;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+    /* background-color: aqua; */
+   }
+   /* .row1{
+    background-color: goldenrod;
+   }
+   .row2{
+    background-color: silver;
+   }
+   .col2{
+    background-color: chocolate;
+   } */
+   .recipe-img{
+    width: 100%;
+    height: 100%;
+   }
+   .res-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+   .street-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+   .about-img-container{
+    height: 230px;
+    width: 450px;
+    background-color: rgb(255, 111, 0);
+   }
+   .arrow-img{
+    height: 20px;
+   }
+   .about-img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .click-img-container{
+    display: flex;
+    align-items: center;
+   }
+   .desc-margin-container{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   .highlighted-txt{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 5px;
+   }
+  </style>
+</head>
+<body>
+  <div class="nav-bar">
+    <div class="nav-content">
+      <a href="#home">Home</a>
+      <a href="#order">Order</a>
+      <a href="#food">Food</a>
+      <a href="#restaurent">Restaurent</a>
+      <a href="#Testimonal">Testimonal</a>
+      <a href="#contact us">Contact Us</a>
+    </div>
+  <img class="menu-icon-img" src="./menu_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" alt="">
+</div>
+  <div class="Home-container">
+    <div class="subcontainer-1">
+      <div class="sub-container-txt">
+        <div class="head-txt-container"><p>LOREM IPSUM</p></div>
+        <div class="desc-container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minus distinctio placeat quaerat in dolor nobis consequatur cumque molestiae illo, eligendi saepe aperiam voluptatibus architecto dolorem soluta eveniet rerum maiores?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit architecto, hic id animi sed, molestiae ipsa fugit enim magnam consequuntur impedit optio quod rem? Nam veniam ratione adipisci voluptate assumenda?</p>
+        </div>
+        <button class="desc-btn">Click Me</button>
+      </div>
+    </div>
+    <div class="subcontainer-2">
+      <img class="burger-img" src="./burger.jpg" alt="">
+    </div>
+  </div>
+  <div class="content-container">
+    <div class="hotel-images-container">
+      <div class="hotel-img-container">
+        <div class="col1">
+          <div class="row1">
+            <img class="res-img" src="./restaurent.jpg" alt=""></div>
+          <div class="row2">
+            <img class="street-img" src="./street.jpg" alt=""></div>
+        </div>
+        <div class="col2">
+          <img class="recipe-img" src="./recipe.jpg" alt=""></div>
+      </div>
+    </div>
+    <div class="hotel-desc-container">
+      <div class="about-img-container">
+        <div class="desc-margin-container">
+          <div>
+            <p>LOREM IPSUM</p>
+          </div>
+          <div>
+            <p class="highlighted-txt">LOREM IPSUM SET ADEMIR</p>
+          </div>
+          <div class="click-img-container">
+            Click &nbsp;<img class="arrow-img" src="./arrow_forward_16dp_000000_FILL0_wght700_GRAD0_opsz20.png" alt="">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>
